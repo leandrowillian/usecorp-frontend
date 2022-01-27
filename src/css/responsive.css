@@ -1,0 +1,629 @@
+@media (max-width: 1500px){
+    #header .nav-item{
+        margin-left: 40px;
+    }
+    /* APP */
+    #app h2{
+        font-size: 38px;
+    }
+     /* APP */
+}
+@media (max-width: 1300px){
+    #header .nav-item{
+        margin-left: 24px;
+    }
+    /* LOGIN */
+    #login .form-container h2 {
+        /* font-size: 42px;     */
+    }
+    #simule .texto{
+        margin: 20px 0px;
+    }
+    /* APP */
+    #app h2{
+        font-size: 32px;
+    }
+     /* APP */
+    
+}
+@media (max-width: 1100px){
+    #solucoes .solucoes-container{
+        min-height: 500px;
+    }
+    #header .nav-item{
+        margin-left: 14px;
+    }
+
+}
+/* LAPTOP */
+@media (max-width: 1024px){
+   /* PÁGINA DE CADASTRO 01 */
+    #cadastro .row{
+        padding: 0px 0px;
+    }
+    #cadastro .row .img-container .img{
+        margin-left: -74%;
+        margin-right: -74%;
+    }
+    #cadastro .form-container{
+        padding: 100px;
+    }
+    /* PÁGINA DE CADASTRO 01*/
+    
+}
+/* LAPTOP */
+
+  /* MAX MEDIUM  */
+  @media (max-width: 991.98px){
+    /* ALTERANDO BREAKPOINT DO NAVMENU */
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+   .navbar-nav .open .dropdown-menu {
+       position: static;
+       float: none;
+       width: auto;
+       margin-top: 0;
+       background-color: transparent;
+       border: 0;
+       -webkit-box-shadow: none;
+       box-shadow: none;
+    }
+    /* //END ==== ALTERANDO BREAKPOINT DO NAVMENU */
+    
+    #header .navbar-nav{
+        align-items: flex-start;
+    }
+      
+    #header .navbar-collapse{
+        width: 100%;
+    }
+    #header .nav-item,
+    #header .nav-item:first-child,
+    #header .nav-item:last-child {
+        margin-left: 0px;
+    }
+    #header .nav-item a.btn-login{
+        margin-bottom: 10px;
+        margin-top: 14px;
+    }
+    
+
+    /* ========== SEÇÃO APP ====== */
+    #app{
+        background-color: var(--blue-original);
+        display: flex;
+    }
+    #app h2{
+        font-size: 22px;
+        line-height: 36px;
+        margin-bottom: 50px;
+        padding-right: 10px;
+        /* text-align: left !important; */
+    }
+    #app h2:last-child{
+        /* text-align: right !important; */
+        padding-right: 0px;
+        padding-left: 10px;
+
+    }
+    #app img{
+        width: 100%;
+        margin-bottom: -100%;
+        margin-top: 36%;
+        border-radius: 34px;
+        box-shadow: 0px 200px 2400px 100px rgb(255, 255, 255);
+    }
+
+    /* ========== //SEÇÃO APP ====== */
+
+    #simule .full-div h2,
+    #simule .full-div p{
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    }
+    
+
+    /* SOLUÇÃO */
+    #solucoes .solucoes-container .col-md-5{
+        align-self: center !important;
+    }
+    #solucoes .solucao{
+        padding-left: 40px;
+    }
+    /* SOLUÇÃO */
+
+     /* DEPOIMENTOS */
+     #depoimentos .text-depoimento .texto{
+        margin-right: 10px;
+        padding-left: 0px;
+    }
+    /* DEPOIMENTOS */
+
+    /* IMAGEM SEÇÃO CONTATO */
+    #contato .email img{
+        width: 90px;
+        top: -40;
+      }
+    /* IMAGEM SEÇÃO CONTATO */
+
+    /* LOGIN */
+    #login .form-container{
+        /* width: 100%; */
+    }
+    #login .form-container h2{
+        /* font-size: 38px; */
+        line-height: 44px;
+    }
+    #login .dots1{
+        top: 110px;
+        left: 0;
+    }
+    #login .dots2{
+        bottom: 110px;
+        right: 0;
+    }
+    /* LOGIN */
+
+    /* PÁGINA DE CADASTRO 01 */
+    #cadastro .row{
+        padding: 0px 0px;
+    }
+    #cadastro .row .img-container .text h1{
+        font-size: 46px;
+    }
+    #cadastro .row .img-container{
+        width: 50%;
+    }
+    #cadastro .row .img-container .img{
+        margin-left: -70%;
+        margin-right: -70%;
+    }
+    #cadastro .form-container{
+        padding: 60px;
+        width: 50%;
+    }
+    /* PÁGINA DE CADASTRO 01*/
+
+    
+    
+}
+
+
+/* =============== SMALL DEVICES - SMARTPHONES && TEBLETS ========== */
+@media screen and (max-width: 767px){
+
+    /* ========== HEADER ====== */
+    #header{
+        padding: 20px 0px;
+    }
+    #header.active nav.nav-central{
+        justify-content: center;
+    }
+    #header .btn-app{
+        display: none;
+    }
+    #header.active nav.nav-central .btn-app{
+        display: none;
+    }
+    /* == */
+
+    /* ========== BANNER PRINCIPAL ====== */
+    #banner-principal .layer{
+        background-color: rgba(1, 68, 92, 0.49);
+        width: 100%;
+        height: 100%;
+    }
+    #banner-principal h1{
+        font-size: 52px;
+    }
+    #banner-principal p{
+        line-height: 26px;
+    }
+    /* #banner-principal img{
+        float: right;
+        vertical-align: bottom !important;
+        
+    } */
+    #banner-principal a{
+        
+        width: 100%
+    }
+    /* ========== //BANNER PRINCIPAL ====== */    
+
+    /* ========== SEÇÃO APP ====== */
+    #app{
+        display: flex;
+        padding: 32px 4px;
+    }
+    #app.block{
+        margin-bottom: 0px;
+    }
+    #app h2{
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 0px;
+        padding-bottom: 40px;
+        text-align: left !important;
+    }
+    #app h2:last-child{
+        padding-bottom: 0px;
+        padding-top: 40px;
+        text-align: right !important;
+    }
+    #app img{
+        width: auto;
+        height: auto;
+        margin-bottom: 0;
+        margin-top: 0;
+        border-radius: 46px;
+        box-shadow: 0px 0px 240px 10px rgb(255, 255, 255);
+    }
+    /* ========== //SEÇÃO APP ====== */
+
+    /* ============ SEÇÃO USERS ====== */
+    #users{
+        margin-top: 0px;
+    }
+    #users.block{
+        margin-bottom: 80px;
+    }
+    #users h2{
+        line-height: 44px;
+    }
+    #users p{
+        font-size: 18px;
+    }
+    #users .img-container{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    
+    /* ========== //SEÇÃO USERS ====== */
+
+    /* ========== //SEÇÃO SIMULE ====== */
+#simule .full-div{
+    padding: 20px 10px 0px 10px;
+    margin-top: 0px;
+}
+#simule .container{
+    background-color: var(--blue-5);
+    border-radius: 40px;
+    padding: 20px 0px 0px 0px;
+    height: 100%;
+}
+#simule .container .content{
+    flex-direction: column;
+    justify-content: center;
+}
+#simule .texto{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+#simule .full-div h2,
+#simule .full-div p{
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 16px;
+}
+
+#simule .img{
+ margin-left: 0;
+ display: none;
+}
+/* ========== //SEÇÃO SIMULE ====== */
+
+/* ========== //SEÇÃO SOLUÇÕES CLIENTE ====== */
+#solucoes{
+    /* background: var(--yellow-3); */
+    color: var(--blue-original);
+    border-radius: 40px;
+    margin-bottom: 80px;
+    padding: 20px 0px 0px 0px;
+}
+#solucoes img{
+    max-height: 607px;
+}
+#solucoes .cobertura div{
+    min-width: 50%;
+    max-width: 50%;
+    height: 58%;
+}
+#solucoes .cobertura1 div{
+    height: 58%;
+    top: 0;
+}
+
+#solucoes .info{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 1.1rem;
+    text-align: center;
+}
+#solucoes.fornecedor .info{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 1.1rem;
+    text-align: center;
+}
+#solucoes .solucao{
+    justify-content: center;
+    padding: 0px 10px;
+    width: 100%;
+}
+/* //========= */
+#solucoes .fornecedor a{
+    max-width: 100%;
+}
+
+#solucoes.fornecedor h2{
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+/* NAV ARROWS CAROUSEL */
+.owl-prev {
+    left: -20px;
+}
+.owl-next {
+    right: -20px;
+}
+/* ========== */
+/* ========== //SEÇÃO SOLUÇÕES CLIENTE ====== */
+
+
+/* ============ SEÇÃO DEPOIMENTOS ====== */
+#depoimentos .text-depoimento{
+    min-height: 300px; 
+    width: 100%;
+}
+#depoimentos .text-depoimento .texto{
+    margin-right: 10px;
+}
+#depoimentos .img-depoimento{
+    padding-left: 0px;
+}
+#depoimentos .img-depoimento .elementos-depoimento{
+    flex: 0 0 auto;
+    width: 100%;
+}
+/* ===== NAV ITEMS ======= */
+#depoimentos .owl-prev {
+    left: -5px;
+}
+#depoimentos .owl-next {
+    right: -5px;
+}
+/* ===== NAV ITEMS ======= */
+/* ========== //SEÇÃO DEPOIMENTOS ====== */
+
+/* ============ SEÇÃO CONTATO ====== */
+#contato{
+    background-color: var(--blue-original);
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+#contato .text-contato,
+#contato .form-contato{
+    width: 100%;
+}
+#contato .text-contato h2{
+    margin-bottom: 30px;
+}
+#contato .text-contato a{
+    color: transparent;
+    margin-right: 23px;
+}
+#contato form{
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+#contato form input,
+#contato form textarea{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    resize: none;
+}
+#contato form button{
+    width: 210px;
+    float: right;
+}
+/* ========== //SEÇÃO CONTATO ====== */
+
+/* ============ SEÇÃO NEWSLETTER ====== */
+#newsletter .newsletter-form{
+    padding: 100px 5px ;
+}
+#newsletter form div{
+    display: block;
+}
+#newsletter form input{
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+#newsletter form button{
+    width: 100%;
+}
+/* ========== //SEÇÃO NEWSLETTER ====== */
+
+/* LOGIN */
+#login{
+    padding-top: 20px;
+}
+#login .dots1,
+#login .dots2{
+    display: none;
+}
+
+#login #app-login{
+    display: flex;
+}
+#login #form-login{
+    display: none;
+}
+/* LOGIN */
+
+/* PÁGINA DE CADASTRO 01 */
+#cadastro .row{
+    padding: 0px 10px;
+}
+#cadastro .row .img-container .text h1{
+    font-size: 60px;
+}
+#cadastro .row .img-container{
+    border-radius: 30px 30px 0px 0px;
+    width: 100%;
+}
+#cadastro .form-container{
+    border-radius: 0px 0px 30px 30px;
+}
+#cadastro .row .img-container .img{
+    margin-left: -100%;
+    padding-top: 10px;
+}
+#cadastro .row .img-container .img img{
+    margin-top: 20px;
+}
+#cadastro .form-container{
+    padding: 80px 20px;
+}
+/* PÁGINA DE CADASTRO 01*/
+
+/* PÁGINA DE CADASTRO 02*/
+#cadastro .form-container{
+    height: 573px;
+    width: 100%;
+}
+/* PÁGINA DE CADASTRO 02*/
+
+
+}
+
+@media screen and (max-width: 425px){
+    /* ========== //BANNER PRINCIPAL ====== */
+    #banner-principal h1{
+        font-size: 44px;
+    }
+    #banner-principal p{
+        font-size: 14px;
+    }
+    #banner-principal a{
+        font-size: 14px;
+    }
+    /* ========== //BANNER PRINCIPAL ====== */
+    /* APP */
+    #app img{
+        border-radius: 44px;
+        box-shadow: 0px 00px 2400px 40px rgb(255, 255, 255);
+    }
+    #app h2{
+        font-size: 30px;
+    }
+    /* APP */
+   
+    /* SOLUÇÃO */
+    #solucoes .cobertura div{
+        height: 52%;
+        min-width: 60%;
+        max-width: 60%;
+    }
+    #solucoes .solucao-cliente, #solucoes .fornecedor{
+        margin-bottom: 140px;
+    }
+
+    #solucoes .fornecedor h2{
+        padding-top: 0px;
+    }
+    /* SOLUÇÃO */
+    #cadastro .row .img-container .text h1 {
+        font-size: 44px;
+    }
+    #cadastro .row .img-container .img img{
+        height: auto;
+    }
+    #cadastro .form-container{
+        height: auto;
+    }
+
+    /* LOGIN */
+    #login{
+        padding-top: 20px;
+    }
+    #login .dots1,
+    #login .dots2{
+        display: none;
+    }
+    /* LOGIN */
+    
+}
+
+@media screen and (max-width: 375px){
+    
+    /* SOLUÇÃO */
+    #solucoes .cobertura1 div{
+        height: 46%;
+        min-width: 60%;
+        max-width: 60%;
+    }
+    #solucoes .solucao-cliente, #solucoes .fornecedor{
+        margin-bottom: 60px;
+    }
+    /* SOLUÇÃO */
+
+    /* CADASTRO */
+    #cadastro .row .img-container .text h1{
+        font-size: 34px;
+    }
+    /* CADASTRO */
+
+    /* TERMOS E POLITICA */
+    #politica-termos h2{
+        font-size: 52px;
+    }
+    /* TERMOS E POLITICA */
+    /* NEWSLETTER */
+    #newsletter h2{
+        font-size: 52px;
+    }
+    /* NEWSLETTER */
+    
+}
+
+
+
